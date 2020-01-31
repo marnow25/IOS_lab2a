@@ -13,6 +13,8 @@
 		D332EE8E23E38A9A0078833C /* Lab2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D332EE8C23E38A9A0078833C /* Lab2.xcdatamodeld */; };
 		D332EE9023E38A9D0078833C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D332EE8F23E38A9D0078833C /* Assets.xcassets */; };
 		D332EE9323E38A9D0078833C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D332EE9123E38A9D0078833C /* LaunchScreen.storyboard */; };
+		D332EE9C23E38AD60078833C /* Sensor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D332EE9B23E38AD60078833C /* Sensor.swift */; };
+		D332EE9E23E38AF80078833C /* Read.swift in Sources */ = {isa = PBXBuildFile; fileRef = D332EE9D23E38AF80078833C /* Read.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		D332EE8F23E38A9D0078833C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D332EE9223E38A9D0078833C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D332EE9423E38A9D0078833C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D332EE9B23E38AD60078833C /* Sensor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sensor.swift; sourceTree = "<group>"; };
+		D332EE9D23E38AF80078833C /* Read.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Read.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 		D332EE8423E38A9A0078833C /* Lab2 */ = {
 			isa = PBXGroup;
 			children = (
+				D332EE9B23E38AD60078833C /* Sensor.swift */,
+				D332EE9D23E38AF80078833C /* Read.swift */,
 				D332EE8523E38A9A0078833C /* AppDelegate.swift */,
 				D332EE8723E38A9A0078833C /* ViewController.swift */,
 				D332EE8923E38A9A0078833C /* Main.storyboard */,
@@ -139,7 +145,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D332EE8E23E38A9A0078833C /* Lab2.xcdatamodeld in Sources */,
+				D332EE9C23E38AD60078833C /* Sensor.swift in Sources */,
 				D332EE8823E38A9A0078833C /* ViewController.swift in Sources */,
+				D332EE9E23E38AF80078833C /* Read.swift in Sources */,
 				D332EE8623E38A9A0078833C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
